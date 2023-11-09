@@ -1,0 +1,48 @@
+A container is like an encrypted folder with veracrypt therefore encrypted with top notch security methods 
+
+you can move these containers as you wish!
+
+if you frget the password you will not be able to retrieve it!
+
+
+
+Using the GUI just go to Volumes and select 'Create a New Volume'
+
+Choose 'Create an encrypted container'
+
+next, just leave the common options as they are sufficiently safe for your use (most of the time...
+
+Now select where you want to save the container and just create it with a name
+
+then leave AES and SHA512
+
+now choose the size. the size will depend on  the size of the data you want to encrypt
+
+if your data is 10gb then insert 10 or 11 gb. Is up to you 
+
+
+then choose the STRONG password that will encrypt the container
+
+
+for large files just choose no (unless you have files with more than 4gb of size)
+
+leave filesystem as FAT
+
+then move the  mouse to collect randomness
+
+finally click on format
+
+wait 
+done! 
+
+now you have the contaainer that you can mount with veracrypt 
+just click on the file that has been saved and choose open with veracrypt and type in your password. 
+the container will mount and you can finally manage that
+
+when you have finished just unmount it with veracrypt (do not use the system unmount feature as this will not lock the container and your data will be visible)
+
+
+
+
+Final note:
+As the GUI has currently some hiccups (like 'Broken Pipe Write Error 384') to unmount the container is recommended to use command line (it is way much easier too ..)

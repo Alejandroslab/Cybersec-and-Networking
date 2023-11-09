@@ -1,0 +1,17 @@
+First disable root
+
+To do that remember to add your current user to sudo group
+
+/etc/ssh/sshd_config 
+
+change the: “PermitRootLogin” to no
+
+you can also change the ssh port
+
+
+
+Disable then IPV6
+edit /etc/sysconfig/ network and update the settings so that they read NETWORKING_ IPV6=no and IPV6INIT=no.
+
+
+Use backups

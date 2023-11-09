@@ -1,0 +1,8 @@
+Veracrypt works with containers that are just sort of envelopes 
+
+You can create one as a file or create one starting from a drive
+
+
+To create it just stick with the GUI as the command is full of options that you can just forget 
+
+To unmount is easier to use command line (even because as of today GUI is flawed with some errors)

@@ -1,0 +1,29 @@
+first list the devices
+
+
+sudo veracrypt --text --list
+
+
+the --text option is mandatory othewise veracrypt will start the GUI
+
+you will get a list of devices (if you have connected more than one)
+similar to this:
+
+1: /home/myuser/Docments/myfile /dev/mapper/veracrypt1/mnt 
+...
+
+the first number is the slot number 
+
+to unmount the n. 1 just run
+
+
+sudo veracrypt --text --dismount --slot 1
+
+done
+
+
+if you run 
+
+sudo veracrypt --text --dismount
+
+without slots every volume will be dismounted 

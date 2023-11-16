@@ -1,0 +1,15 @@
+Telnet is a protocol that allows you to access and manage remote network devices over the Internet, such as servers, routers, switches, and others1. 
+With Telnet, you can establish a virtual terminal connection with a remote device and send text commands as if you were physically present in front of the device2. 
+Telnet uses the TCP protocol to transmit data between the client and the server, and uses port 23 by default2. 
+Telnet is an old and simple protocol, that does not offer any security or encryption of data. 
+For this reason, it has been replaced by the SSH protocol, which offers a secure and protected connection
+
+
+Telnet can be used in Linux. 
+Telnet is a cross-platform protocol that can be used on various operating systems, including Windows, macOS, and Linux. 
+
+to use it:
+
+telnet localhost 25
+
+EHLO server 

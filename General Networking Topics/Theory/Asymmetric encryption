@@ -1,0 +1,15 @@
+
+In asymmetric cryptography, the recipient knows the private key because he generates it himself, along with the public key, through a mathematical algorithm. 
+(quindi per crittografe si parte dal DESTINATARIO e non dal mittente.
+è il DESTINATARIO a creare chiave pubblica e privata e poi a condividere la pubblica 
+al mittente che potra crittografe il suo messaggio con la chiave pubblica.
+Una volta crittografato il messaggio il mittente lo invia al destinatario anche mediante canali non sicuri e 
+il destinatario e solo lui potrà aprirlo in quanto in possesso della chiave privata).
+
+
+The private key is secret and known only by the legitimate owner, and is used to decrypt the data encrypted with the public key¹. 
+
+The public key, on the other hand, is shared with the communication partner, through a key server or a certification authority². 
+
+In this way, the sender can encrypt the message with the public key of the recipient, and the recipient can decrypt it with his private key. 
+This system guarantees the confidentiality, authenticity and security of the messages

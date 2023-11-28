@@ -1,0 +1,9 @@
+Virtual servers (VPS) and cloud servers are both based on virtualized infrastructures. 
+
+The difference is usually in the specific technology used and the features. 
+
+VPSs are usually physical servers that house CPU, RAM, and memory. 
+
+Cloud infrastructures typically consist of separate compute and storage nodes, i.e., individual "cloudified" components.
+
+With IONOS, the VPS is based on the same technology platform as the Cloud, but with a set of features

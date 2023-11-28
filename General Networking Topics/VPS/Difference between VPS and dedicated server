@@ -1,0 +1,15 @@
+Con un server virtuale, l'hardware fisico viene suddiviso in sistemi logicamente separati tramite software. 
+
+Questi possono poi essere utilizzati come server da più utenti. 
+
+Infatti, le risorse disponibili nel server fisico (CPU, RAM e memoria) sono divise.
+
+I server dedicati, invece, sono consegnati all'utente "per intero". 
+
+L'utente ha accesso a un hardware che è fisicamente utilizzato solo da lui. 
+
+
+Un server dedicato è comparabile con un proprio computer portatile o un PC di casa. 
+
+
+Le risorse/componenti installate (CPU, RAM, memoria, accesso alla rete, ecc.) sono disponibili esclusivamente per un solo utente.

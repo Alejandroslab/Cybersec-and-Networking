@@ -13,5 +13,7 @@ Hosting < VPS < Dedicated server
 the hosting is the most easy way to manage a website
 
 a VPS allows more flexibility as you have an entire OS even if it is shared among multiple clients of the provider
+It is recommendend when you need more power and flexiblity (when your webiste has a lot of traffic)
+
 
 Finally the deidicated server you have an entire bare metal server for you

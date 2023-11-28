@@ -12,9 +12,15 @@ You may need to create a virtual host for your domain and enable the necessary m
 You can refer to the documentation of your web server for more details.
 Register a domain name from a domain name registrar, such as GoDaddy, Namecheap, or Google Domains. 
 
-You can choose any domain name that is available and suits your website’s purpose4.
+You can choose any domain name that is available and suits your website’s purpose.
 Point your domain name to your Linux machine’s public IP address. 
 
+
+Change your domain’s name servers to the ones provided by your server or your DNS provider.
+Wait for the DNS changes to propagate across the internet.
+
+
+You can do this changing the NS rrecords for your domain and then click Confirm to save the changes.
 You can do this by creating an A record or an AAAA record in your domain name registrar’s DNS management panel. 
 
 You may also need to create other DNS records, such as CNAME, MX, or TXT, depending on your website’s needs4.

@@ -1,0 +1,8 @@
+When in SAML autoprovisioning is not available a possible solution is the usage of 
+SCIM Protocol.
+
+SCIM is a protocol that enables the automation of user identity management tasks across different systems and domains.
+SAML is a protocol for authentication and authorization. 
+SCIM and SAML are both related to identity management, but they have different purposes and functions. 
+SAML is used to enable single sign-on (SSO) and simplify user access to multiple applications and services within an organization. 
+SCIM is used to automate user provisioning and deprovisioning, synchronize user data between systems, and streamline identity management processes

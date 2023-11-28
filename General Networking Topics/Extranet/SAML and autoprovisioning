@@ -1,0 +1,6 @@
+Self-provisioning in SAML is a feature that allows you to automatically create user accounts in your service provider (SP) 
+when users authenticate through your identity provider (IdP). 
+This way, users don't have to manually register in the SP, but can log in to the services 
+with the same credentials they use in the IdP. 
+Self-provisioning in SAML is based on SAML assertions, 
+which are XML-formatted messages that contain authentication and authentication information.

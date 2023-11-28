@@ -6,3 +6,11 @@ SAML is a protocol for authentication and authorization.
 SCIM and SAML are both related to identity management, but they have different purposes and functions. 
 SAML is used to enable single sign-on (SSO) and simplify user access to multiple applications and services within an organization. 
 SCIM is used to automate user provisioning and deprovisioning, synchronize user data between systems, and streamline identity management processes
+
+
+SCIM is a protocol that enables the automation of user identity management tasks across different systems and domains. 
+It works by using JSON, REST, and various authentication methods to exchange user data between an identity provider and a service provider. 
+For example, when a user is added, modified, or deleted in an identity provider, such as an HR system or a directory service, SCIM can automatically create, update, or deactivate the corresponding user account in a service provider, such as a cloud application or a platform. 
+SCIM can also synchronize user attributes, such as name, email, or role, between the systems, and support operations such as search, filter, or bulk actions. 
+SCIM uses standard schemas and definitions for users and groups, and can be extended to support custom attributes and resources. 
+SCIM can improve the security, efficiency, and user experience of identity management by reducing the manual effort, human error, and inconsistency involved in provisioning and deprovisioning processes. You can find more information about SCIM and how it works on these websites:

@@ -1,0 +1,11 @@
+In general, emails are not encrypted by default while they travel between email servers, which makes them vulnerable 
+to cyberattacks. 
+However, there are methods to protect emails with encryption, which consists of encoding the content of emails 
+so that only the intended recipient can read it. 
+There are two main types of encryption for emails: encryption in transit and end-to-end encryption. 
+Encryption in transit uses the TLS (Transport Layer Security) protocol to prevent the reading of emails after
+they have been sent and before they are delivered. This type of encryption is used by the main email providers, 
+such as Microsoft and Google. End-to-end encryption, on the other hand, 
+ensures that emails are encrypted by the sender and can only be decrypted by the recipient on their own device.
+This type of encryption is more secure, but requires the use of public and private keys to encode and decode messages. 
+End-to-end encryption is used by some specialized email services, such as ProtonMail and Tutanota.

@@ -1,0 +1,6 @@
+A SYN flood is a type of cyberattack that tries to make a server unavailable to legitimate traffic by sending many connection requests without completing them. 
+
+This way, the server wastes its resources and cannot respond to other requests. 
+
+
+A SYN flood is also called a half-open attack, because it leaves many connections half-open12.

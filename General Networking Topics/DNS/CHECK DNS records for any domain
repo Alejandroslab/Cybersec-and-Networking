@@ -1,0 +1,28 @@
+You can you the nslookup online tools that baiscally perform a nslookup or dig command over the command 
+
+to check quickly any dns records run:
+
+dig ANY www.example.com
+or
+
+dig ANY example.com
+
+
+You can query any public webiste over the internet that you want!
+
+
+To query just all the TXT records for that domain:
+
+dig TXT www.example.com
+
+REMEMBER! This will query the default DNS server of the domain!
+
+You can also specify a different DNS server to query 
+by adding @server-name at the end of the command, such as 
+
+nslookup -type=txt domain-name @server-name 
+
+
+or 
+
+dig TXT domain-name @server-name

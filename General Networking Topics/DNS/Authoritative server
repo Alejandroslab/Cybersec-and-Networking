@@ -8,7 +8,7 @@ It helps to ensure the consistency and accuracy of
 the zone data across different servers, and to prevent unauthorized or outdated responses)
 
 
-There are usually multiple authoritative servers for a domain name,
+There are usually MULTIPLE authoritative servers for a domain name,
 to provide redundancy and reliability. 
 The RFC 1034 recommends at least two authoritative servers for each domain name.
 
@@ -30,3 +30,9 @@ This will return the following output:
 ns52.domaincontrol.com. ns51.domaincontrol.com.
 
 These are the authoritative servers for stackoverflow.com. You can also use the +trace option to see the full path of the query from the root name servers to the authoritative servers.
+
+REMEMBER !
+Online tools allow also to find the DNS records of a domain/website from differente online DNS server 
+like Cloudflare DNS Server.
+When you perform the query it will be used the Cloudflare DNS Server.
+Alternatively usually you can use the Authoritative that is the proprietary DNS server

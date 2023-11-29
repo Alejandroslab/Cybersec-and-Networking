@@ -19,7 +19,7 @@ Name:   google.com
 Address: 142.251.209.46
 
 The first IP in the first line is the IP of your DNS server!
-
+The #53 stands for the port that is used for DNS request.
 
 INTERACTIVE MODE:
 

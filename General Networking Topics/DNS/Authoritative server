@@ -1,7 +1,12 @@
 The authoritative server in DNS is the name server that has the original and definitive records for a domain name.
 It is the ultimate source of truth for resolving queries about that domain name. 
 For example, if you want to know the IP address of stackoverflow.com, you need to ask the authoritative server for stackoverflow.com, which is ns51.domaincontrol.com 
-according to the SOA record 1.
+according to the SOA record.
+
+(The SOA record is the first record in every zone file, and it is essential for the proper functioning of the DNS!
+It helps to ensure the consistency and accuracy of 
+the zone data across different servers, and to prevent unauthorized or outdated responses)
+
 
 There are usually multiple authoritative servers for a domain name,
 to provide redundancy and reliability. 

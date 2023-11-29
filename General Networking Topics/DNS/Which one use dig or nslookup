@@ -1,0 +1,8 @@
+
+
+nslookup is an older tool that is mostly deprecated in favor of dig. It uses its own internal resolver libraries, which may cause confusion or inconsistency with the OS resolver libraries. It has a simpler syntax and output, but it is less flexible and powerful than dig
+
+dig is a newer tool that is recommended by the Internet Systems Consortium (ISC), the same organization that maintains and distributes nslookup. It uses the OS resolver libraries, which are more reliable and consistent. It has a more complex syntax and output, but it is more versatile and robust than nslookup
+
+
+Anwyays nslookup is available even in Windows while dig not.

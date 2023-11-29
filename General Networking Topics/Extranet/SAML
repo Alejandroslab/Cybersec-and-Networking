@@ -1,4 +1,10 @@
-SAML is a protocol that allows different systems to exchange user information securely and efficiently. SAML stands for Security Assertion Markup Language, which is an XML-based standard for communicating authentication and authorization data. SAML enables single sign-on (SSO), which means that users can log in once with an identity provider and access multiple service providers without entering their credentials again. Here is a simplified explanation of how SAML works:
+SAML is a protocol that allows different systems to exchange user information securely and efficiently. 
+SAML stands for Security Assertion Markup Language, 
+which is an XML-based standard for communicating authentication and authorization data. 
+SAML enables single sign-on (SSO), which means that users can log in once with an identity provider 
+and access multiple service providers without entering their credentials again. 
+
+Here is a simplified explanation of how SAML works:
 
 A user wants to access a service provider (SP), such as a web application or a cloud service, that supports SAML.
 
@@ -11,6 +17,10 @@ If the user is successfully authenticated, the IdP generates a SAML assertion, w
 The IdP sends the SAML assertion back to the SP, either directly or through the user’s browser.
 
 The SP validates the SAML assertion and grants the user access to the requested service.
+
+
+________________________________________
+
 
 SAML has many benefits, such as:
 

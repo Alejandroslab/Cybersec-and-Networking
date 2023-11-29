@@ -26,3 +26,12 @@ nslookup -type=txt domain-name @server-name
 or 
 
 dig TXT domain-name @server-name
+
+
+to check the nameserver run
+
+dig NS example.com
+
+or if you want a short and straightforward answer run the dig command with the short option
+
+dig +short NS example.com

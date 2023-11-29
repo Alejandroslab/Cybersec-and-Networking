@@ -1,0 +1,27 @@
+The authoritative server in DNS is the name server that has the original and definitive records for a domain name.
+It is the ultimate source of truth for resolving queries about that domain name. 
+For example, if you want to know the IP address of stackoverflow.com, you need to ask the authoritative server for stackoverflow.com, which is ns51.domaincontrol.com 
+according to the SOA record 1.
+
+There are usually multiple authoritative servers for a domain name,
+to provide redundancy and reliability. 
+The RFC 1034 recommends at least two authoritative servers for each domain name.
+
+The authoritative servers can be either primary or secondary. 
+The primary server is the one that is configured by the domain administrator and holds the original zone records. 
+The secondary servers are the ones that synchronize with the primary server and keep a copy of the zone records. 
+Both primary and secondary servers are authoritative and can answer queries for the domain name.
+
+To find the authoritative servers for a domain name, you can use various tools, such as nslookup, dig, or online DNS lookup services. 
+
+These tools will query the root name servers and then follow the referrals until they reach the authoritative servers for the domain name. 
+
+For example, to find the authoritative servers for stackoverflow.com using dig, you can use the following command:
+
+dig +short NS stackoverflow.com
+
+This will return the following output:
+
+ns52.domaincontrol.com. ns51.domaincontrol.com.
+
+These are the authoritative servers for stackoverflow.com. You can also use the +trace option to see the full path of the query from the root name servers to the authoritative servers.

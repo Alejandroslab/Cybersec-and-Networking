@@ -3,3 +3,7 @@ SPF string inside your DNS server (or in all of your DNS server with a propagati
 
 the SPF string is a particular TXT record (check all the list of the DNS type of records)
 (another type of record is DKIM, DMARC...)
+
+an example:
+
+v=spf1 include:_spf.google.com ~all

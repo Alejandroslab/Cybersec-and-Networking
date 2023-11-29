@@ -1,0 +1,23 @@
+SAML is a protocol that allows different systems to exchange user information securely and efficiently. SAML stands for Security Assertion Markup Language, which is an XML-based standard for communicating authentication and authorization data. SAML enables single sign-on (SSO), which means that users can log in once with an identity provider and access multiple service providers without entering their credentials again. Here is a simplified explanation of how SAML works:
+
+A user wants to access a service provider (SP), such as a web application or a cloud service, that supports SAML.
+
+The SP redirects the user to an identity provider (IdP), such as Auth0, that stores and verifies the user’s identity.
+
+The IdP asks the user to log in with their username and password, or another method of authentication, such as biometrics or multi-factor authentication.
+
+If the user is successfully authenticated, the IdP generates a SAML assertion, which is an XML document that contains information about the user, such as their name, email, role, and permissions.
+
+The IdP sends the SAML assertion back to the SP, either directly or through the user’s browser.
+
+The SP validates the SAML assertion and grants the user access to the requested service.
+
+SAML has many benefits, such as:
+
+Improved user experience: Users do not have to remember and enter multiple passwords for different services. They can also switch between services seamlessly without logging in again.
+
+Increased security: User credentials are only sent to the IdP, which reduces the risk of phishing, credential theft, and brute force attacks. SAML also supports encryption and digital signatures to protect the data in transit and ensure its integrity.
+
+Loose coupling of directories: User information does not have to be synchronized and maintained across multiple systems. The IdP is the authoritative source of user data, and the SP can rely on the IdP to provide accurate and up-to-date information.
+
+Reduced costs for SPs: SPs do not have to implement and manage their own authentication systems. They can leverage the existing infrastructure and expertise of the IdP, which reduces the development and maintenance costs.

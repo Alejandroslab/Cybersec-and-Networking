@@ -1,0 +1,16 @@
+ SAML stands for Security Assertion Markup Language, which is a protocol that enables single sign-on (SSO) between an identity provider (IdP) and a service provider (SP).
+
+The IdP is the system that stores and verifies the user’s identity, such as Microsoft Entra ID or Google. 
+
+The SP is the application that requires user authentication, such as GitHub or Salesforce.
+
+
+SELF PROVISIONIG
+Self provisioning in SAML is a process that allows users to create and manage their own accounts in the SP based on the information contained in the SAML assertion, which is an XML document that the IdP sends to the SP to confirm the user’s identity and attributes. 
+
+The SP can use the SAML assertion to create a new user account or update an existing one, without requiring the user to enter any credentials or fill any forms.
+This way, the user can access the SP with a single login at the IdP, and the SP can synchronize the user data with the IdP.
+
+AUTO PROVISIONING 
+Auto provisioning in SAML is a process that allows the IdP to create and manage the user accounts in the SP automatically,
+without requiring any user intervention. 

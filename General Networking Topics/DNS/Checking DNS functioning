@@ -3,13 +3,25 @@ If you want to check your DNS and if it is working properly just use nslookup
 nslookup (from name server lookup) is a network administration command-line tool for querying the Domain Name System (DNS) to obtain the mapping between domain name and IP address, or other DNS records.
 
 it is a command.
+
 You can use it:
 
-nslookup myserver
+nslookup any_ip
 
 or:
 
-nslookup myserver.local
+nslookup google.com
+Server:         192.168.1.1 
+Address:        192.168.1.1#53
+
+Non-authoritative answer:
+Name:   google.com
+Address: 142.251.209.46
+
+The first IP in the first line is the IP of your DNS server!
+
+
+INTERACTIVE MODE:
 
 or you can use it interactively just type
 

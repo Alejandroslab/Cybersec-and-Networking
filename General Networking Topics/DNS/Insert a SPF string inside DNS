@@ -7,3 +7,8 @@ the SPF string is a particular TXT record (check all the list of the DNS type of
 an example:
 
 v=spf1 include:_spf.google.com ~all
+
+you may wnat to add the Micorsoft 365 (most common use cas) as you may wnat to send
+email from Exchange that is not the same server where your domain is hosted
+
+v=spf1 include:spf.protection.outlook.com -all

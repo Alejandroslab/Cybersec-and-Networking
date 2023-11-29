@@ -36,3 +36,8 @@ Online tools allow also to find the DNS records of a domain/website from differe
 like Cloudflare DNS Server.
 When you perform the query it will be used the Cloudflare DNS Server.
 Alternatively usually you can use the Authoritative that is the proprietary DNS server
+
+
+
+To check all non autorithative server you must use with dig the '+trace' option 
+dig +trace google.com

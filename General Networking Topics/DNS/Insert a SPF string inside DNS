@@ -1,0 +1,5 @@
+Whenever you need to allow a particular server to send an email you must create an
+SPF string inside your DNS server (or in all of your DNS server with a propagation strategy)
+
+the SPF string is a particular TXT record (check all the list of the DNS type of records)
+(another type of record is DKIM, DMARC...)

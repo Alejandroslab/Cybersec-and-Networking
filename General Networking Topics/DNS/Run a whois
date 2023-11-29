@@ -1,0 +1,9 @@
+o run whois within Linux, you need to install the whois command utility, which is a client to make WHOIS protocol queries. The WHOIS protocol allows you to get information about the ownership of domains and IP addresses. Depending on your Linux distribution, you can use different commands to install the whois utility. For example:
+
+On Ubuntu or Debian, you can use: sudo apt install whois
+On Fedora, you can use: sudo dnf install whois
+On OpenSUSE, you can use: sudo zypper in whois
+On Arch Linux, you can use: sudo pacman -S whois
+After installing the whois utility, you can use it in the terminal by typing whois followed by a domain name or an IP address. For example:
+
+To get information about the domain linuxconfig.org, you can use: whois linuxconfig.org

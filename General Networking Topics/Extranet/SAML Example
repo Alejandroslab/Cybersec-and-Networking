@@ -14,3 +14,5 @@ This way, the user can access the SP with a single login at the IdP, and the SP 
 AUTO PROVISIONING 
 Auto provisioning in SAML is a process that allows the IdP to create and manage the user accounts in the SP automatically,
 without requiring any user intervention. 
+
+Autoprovisioning in SAML is a process that allows the service provider (SP) to create and manage user accounts automatically based on the information contained in the SAML assertion, which is an XML document that the identity provider (IdP) sends to the SP to confirm the user’s identity and attributes. Autoprovisioning in SAML can reduce the manual effort and human error associated with user management, and ensure that the user data is consistent and up-to-date across the SPs.

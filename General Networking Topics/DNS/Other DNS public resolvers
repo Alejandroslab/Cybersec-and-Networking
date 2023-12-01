@@ -1,0 +1,5 @@
+The public DNS resolver offered by Cloudflare. Cloudflare’s 1.1.1.1 is a free and fast DNS recursor that anyone can use. 
+It also provides security and privacy features, such as encryption and filtering.
+You can change your DNS settings to use 1.1.1.1 as your DNS recursor instead of your ISP’s DNS resolver.
+The DNS recursor built into your operating system. Some operating systems, such as Windows, Linux, and macOS, have their own DNS recursors that can perform DNS lookups locally. 
+These DNS recursors can use a combination of cached data, hosts files, and network configuration to resolve domain names to IP addresses.	

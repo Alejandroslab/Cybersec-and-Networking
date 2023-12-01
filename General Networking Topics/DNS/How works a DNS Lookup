@@ -1,0 +1,15 @@
+The steps of a DNS lookup are as follows:
+
+A client (such as a web browser) sends a query to a DNS recursor, 
+asking for the IP address of a domain name, such as www.example.com.
+
+The DNS recursor checks its cache to see if it already has the answer. 
+If not, it contacts a root nameserver to find out which TLD nameserver is responsible for the .com domain.
+The root nameserver responds with the IP address of the TLD nameserver for the .com domain.
+The DNS recursor contacts the TLD nameserver and asks 
+for the IP address of the authoritative nameserver for the example.com domain.
+The TLD nameserver responds with the IP address of the authoritative nameserver for the example.com domain.
+The DNS recursor contacts the authoritative nameserver and asks for the IP address of the www.example.com domain.
+The authoritative nameserver responds with the IP address of the www.example.com domain.
+The DNS recursor returns the IP address of the www.example.com domain to the client.
+The client can now use the IP address to connect to the website.

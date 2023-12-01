@@ -4,6 +4,9 @@ A client (such as a web browser) sends a query to a DNS recursor,
 asking for the IP address of a domain name, such as www.example.com.
 
 The DNS recursor checks its cache to see if it already has the answer. 
+A DNS recursor or resolver is the one provided by your ISP (Internet Service Provider). 
+The ISP resolver will handle all your DNS queries and cache the results for faster access.
+
 If not, it contacts a root nameserver to find out which TLD nameserver is responsible for the .com domain.
 The root nameserver responds with the IP address of the TLD nameserver for the .com domain.
 The DNS recursor contacts the TLD nameserver and asks 

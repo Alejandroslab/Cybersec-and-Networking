@@ -1,0 +1,13 @@
+used to redirect like this example:
+A CNAME (Canonical Name) record is used to map one domain name to another domain name. 
+It is often used when a domain name needs to be pointed to another domain name, 
+instead of an IP address.
+
+Here is an example of a CNAME record:
+
+blog.example.com. 32600 IN CNAME example.com.
+
+In this example, the CNAME record maps the subdomain blog.example.com 
+to the domain example.com. 
+When a DNS server looks up the IP address for blog.example.com, 
+it will be redirected to example.com.

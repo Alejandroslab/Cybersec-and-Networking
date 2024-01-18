@@ -1,0 +1,7 @@
+Un Security Operations Center (SOC) è un centro da cui vengono forniti servizi finalizzati alla sicurezza dei sistemi informativi dell'azienda stessa (SOC interno) o di clienti esterni; in quest'ultimo caso il SOC è utilizzato per l'erogazione di Managed Security Services (MSS) e l'azienda che li eroga è definita Managed Security Service Provider (MSSP). Un SOC può anche fornire servizi di Incident Response, in questo caso svolge la funzione di CSIRT (Computer Security Incident Response Team), anche se le due funzioni sono logicamente e funzionalmente separate; alcune grandi aziende dispongono di un SOC e di un CERT separati.
+
+Un SOC fornisce tre tipologie di servizi:
+
+Servizi di gestione: tutte le attività di gestione delle funzionalità di sicurezza legate all'infrastruttura IT (rete, sistemi ed applicazioni) sono centralizzate dal SOC;
+Servizi di monitoraggio: l'infrastruttura IT e di Sicurezza vengono monitorate in tempo reale al fine di individuare tempestivamente tentativi di intrusione, di attacco o di misuse dei sistemi;
+Servizi proattivi: sono servizi finalizzati a migliorare il livello di protezione dell'organizzazione (Security assessments, vulnerability assessments, early warning, security awareness).

@@ -1,0 +1,38 @@
+Netskope is a cloud security platform that provides real-time visibility of the managed devices accessing the cloud 
+and web from any location1. 
+
+The Netskope Client is a lightweight application that steers traffic from the end-user device to Netskope Cloud1. 
+
+It uses a Forward Proxy Steering mechanism where the Client creates an SSL tunnel from the end device and
+terminates it at the Netskope forward proxy in the Cloud.
+
+
+A proxy server is a server application that acts
+as an intermediary between a client requesting a resource and the server providing that resource 
+
+
+There are different types of proxy servers, such as forward proxies and reverse proxies 1. A forward proxy is an Internet-facing proxy used to retrieve data from a wide range of sources (in most cases, anywhere on the Internet) 1. A reverse proxy
+is usually an internal-facing proxy used as a front-end to control and protect access to a server on a private network.
+
+Compared to traditional firewalls, which use a passthrough approach, forwarding traffic to the intended recipient while its contents are still being inspected, a forward proxy doesn’t forward
+traffic until its contents have been through an authentication process and determined to be safe 
+
+There are different types of proxies, such as forward proxies and reverse proxies 1.
+
+A forward proxy is a type of proxy server that sits between one or more user devices and the internet 2. 
+It acts as an intermediary that evaluates the client request, 
+takes any necessary actions, and routes the request to the destination on the client’s behalf 2. 
+The proxy then evaluates and inspects any response, takes action as needed, and forwards it to the originating client if appropriate 2. 
+Forward proxies are used to retrieve data from a wide range of sources (in most cases, anywhere on the Internet) 2. 
+They can shield users from direct access to or from bad actors as well as prevent them from compromising data and enterprise resources—intentionally or not 2.
+
+A reverse proxy is usually an internal-facing proxy used as a front-end to control and protect access 
+to a server on a private network 1. A reverse proxy commonly also performs tasks such as load-balancing, authentication, 
+decryption and caching 1
+
+
+The key difference between a forward proxy and a reverse proxy is that the first one is used by a client, 
+e.g., a user inside a private network, while the second one is used by an internet server 3. 
+A forward proxy can be positioned in the private network together with the user, or it can be online.
+A reverse proxy, on the other hand, routes traffic on behalf of multiple servers 2. It effectively serves as a gateway between clients, users, and application servers 2. It handles all the access policy management and traffic routing, 
+and it protects the identity of the server that actually processes the request 2.

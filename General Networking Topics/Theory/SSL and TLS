@@ -12,4 +12,9 @@ The main differences between TLS and SSL are:
 Security: TLS is considered more secure than SSL because it uses stronger encryption algorithms and has better security features 12.
 Compatibility: TLS is not backward-compatible with SSL, which means that if a server is configured to use TLS, it cannot communicate with clients that only support SSL 1.
 Performance: TLS is generally faster than SSL because it uses more efficient encryption algorithms 2.
-In summary, TLS is a more secure and efficient version of SSL that is widely adopted for encrypting data and authenticating connections on the Internet
+In summary, TLS is a more secure and efficient version of SSL that is widely adopted for encrypting data and
+authenticating connections on the Internet
+
+
+HTTPS is an implementation of TLS encryption on top of the HTTP protocol, which is used by all websites as well as some other web services. 
+Any website that uses HTTPS is therefore employing TLS encryption.

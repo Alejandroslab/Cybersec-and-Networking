@@ -1,0 +1,15 @@
+Secure Sockets Layer (SSL) is a protocol for encrypting HTTP traffic, such as connections between user devices and web servers 1. Websites that use SSL encryption have https:// in their URLs instead of http://.
+
+SSL was replaced several years ago by Transport Layer Security (TLS), but the term “SSL” is still in common use for referring to the protocol.
+In addition to encrypting client-server communications in web browsing, SSL can also be used in VPNs.
+
+Transport Layer Security (TLS) and Secure Socket Layer (SSL) are both cryptographic protocols that encrypt data and authenticate a connection when moving data on the Internet 12. 
+
+TLS is actually just a more recent version of SSL, which fixes some security vulnerabilities in the earlier SSL protocols 2.
+
+The main differences between TLS and SSL are:
+
+Security: TLS is considered more secure than SSL because it uses stronger encryption algorithms and has better security features 12.
+Compatibility: TLS is not backward-compatible with SSL, which means that if a server is configured to use TLS, it cannot communicate with clients that only support SSL 1.
+Performance: TLS is generally faster than SSL because it uses more efficient encryption algorithms 2.
+In summary, TLS is a more secure and efficient version of SSL that is widely adopted for encrypting data and authenticating connections on the Internet

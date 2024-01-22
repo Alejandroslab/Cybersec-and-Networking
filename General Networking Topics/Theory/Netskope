@@ -1,10 +1,23 @@
 Netskope is a cloud security platform that provides real-time visibility of the managed devices accessing the cloud 
-and web from any location1. 
+and web from any location. 
 
-The Netskope Client is a lightweight application that steers traffic from the end-user device to Netskope Cloud1. 
+The Netskope Client is a lightweight application that steers traffic from the end-user device to Netskope Cloud. 
 
 It uses a Forward Proxy Steering mechanism where the Client creates an SSL tunnel from the end device and
 terminates it at the Netskope forward proxy in the Cloud.
+
+
+____________
+è un proxy su cloud gestito da piattaforma sempre su cloud.
+L'azienda dopo il pagamento ha accesso a un utenza di amministrazione da cui approva le utenze che possono collegarsi al proxy 
+Inoltre può definire le regole di 'steering' ovvero di traffico che va reinidrizzato dal client al server finale (alcuni indirizzi ad esempio quelli della intranet in questo modo diventano accessibili)
+Dalla piattaforma è possibile anche andare a scaricare il pacchetto exe eseguibile per l'instrallazione sul pc windows 
+(occorre loggarsi alla piattaforma)
+
+Una volta installato l'applicativo si scarica le chiavi pubbliche e private per connettersi al server Netskope (è presente l'indirizzo chiamato tenant)
+
+
+____
 
 
 A proxy server is a server application that acts

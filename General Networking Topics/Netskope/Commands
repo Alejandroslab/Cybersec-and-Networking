@@ -1,0 +1,44 @@
+Client installation directory:
+
+In Windows: C:\Program Files (x86)\netskope\stagent
+In macOS: /Library/Application\ Support/Netskope/STAgent/
+
+Example in Windows
+
+Example 1: Get NPA status
+C:\Program Files (x86)\netskope\stagent\nsdiag -n
+
+Example 2: Update configuration
+C:\Program Files (x86)\netskope\stagent\nsdiag -u
+
+Example 3: Show Netskope Client version
+C:\Program Files (x86)\netskope\stagent\nsdiag -v
+
+Example 4: Use this command to display the client details such as client status, tunnel status, Gateway, On-PremStatus, Gateway IP, Tunnel Protocol, Explicit Proxy.
+C:\Program Files (x86)\netskope\stagent\nsdiag -f
+
+Example 5: This option shows URL performance stats like connect time, look-up time etc as shown below.
+C:\Program Files (x86)\netskope\stagent\nsdiag -r google.com
+
+Example 6: Show this help
+C:\Program Files (x86)\netskope\stagent\nsdiag -h
+
+Example in macOS
+
+Example 1: Get NPA status
+/Library/Application\ Support/Netskope/STAgent/nsdiag -n
+
+Example 2: Update configuration
+/Library/Application\ Support/Netskope/STAgent/nsdiag -u
+
+Example 3: Show Netskope Client version
+/Library/Application\ Support/Netskope/STAgent/nsdiag -v
+
+Example 4: Use this command to display the client details such as client status, tunnel status, Gateway, On-PremStatus, Gateway IP, Tunnel Protocol, Explicit Proxy.
+/Library/Application\ Support/Netskope/STAgent/nsdiag -f
+
+Example 5: This option shows URL performance stats like connect time, look-up time etc as shown below.
+/Library/Application\ Support/Netskope/STAgent/nsdiag -r google.com
+
+Example 6: Show this help
+/Library/Application\ Support/Netskope/STAgent/nsdiag -h

@@ -8,8 +8,21 @@ il destinatario e solo lui potrà aprirlo in quanto in possesso della chiave pri
 
 
 The private key is secret and known only by the legitimate owner, and is used to decrypt the data encrypted with the public key¹. 
+La chiave privata in genere ha estensione .p12
 
 The public key, on the other hand, is shared with the communication partner, through a key server or a certification authority². 
+La chiave pubblica in geneere ha estensione .pem
+
+If you do need to view the contents of a PEM file, you can open it with a text editor, such as Microsoft Notepad or Apple TextEdit. The file consists of one or more headers that indicate the information stored in the file. For example, a PEM file that contains an RSA private key and a certificate will look like this:
+
+-----BEGIN RSA PRIVATE KEY-----
+[RSA private key text]
+-----END RSA PRIVATE KEY-----
+-----BEGIN CERTIFICATE-----
+[certificate text]
+-----END CERTIFICATE-----
+
+
 
 In this way, the sender can encrypt the message with the public key of the recipient, and the recipient can decrypt it with his private key. 
 This system guarantees the confidentiality, authenticity and security of the messages
